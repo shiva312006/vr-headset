@@ -265,3 +265,24 @@ hr {
     font-size: 20px;
     font-weight: 400;
 }
+
+.demo {
+    position: absolute; /* Position it relative to the parent container */
+    left: 20px; /* Adjust left position */
+    top: 50px; /* Adjust top position */
+    color: white; /* Set text color */
+    font-size: 90px; /* Adjust font size */
+    font-weight: bold;
+    opacity: 0.8; /* Set opacity to 50% */
+    background: rgba(0, 0, 0, 0.714); /* Optional: Add a slight background for visibility */
+    padding: 10px;
+    border-radius: 5px;
+  }@media (max-width: 600px) {
+    .demo {
+      left: 50%; /* Move it to center */
+      top: 20%;
+      transform: translate(-50%, -50%); /* Ensure it's fully centered */
+      text-align: center;
+      width: 80%; /* Optional: Adjust width for better display */
+    }
+  }
